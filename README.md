@@ -10,3 +10,6 @@ A small test website to practice using React with TailwindCSS.
  - [Tailwind CSS](https://tailwindcss.com/)
  - [Font Awesome](https://fontawesome.com/)
 
+## Author
+
+- [@Brycerw11](https://github.com/Brycerw11)
