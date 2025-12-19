@@ -29,9 +29,6 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     steps:
-      - name: Build
-        working-directory: react-test
-        run: npm run build
       - name: Checkout
         uses: actions/checkout@v4
       - name: Setup Pages
