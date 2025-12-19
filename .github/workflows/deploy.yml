@@ -30,7 +30,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Build
-        working-directory: ./react-test
+        working-directory: react-test
         run: npm run build
       - name: Checkout
         uses: actions/checkout@v4
@@ -40,7 +40,7 @@ jobs:
         uses: actions/upload-pages-artifact@v3
         with:
           # Upload entire repository
-          path: './react-test/dist'
+          path: './react-test/dist/index.html'
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
