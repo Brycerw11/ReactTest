@@ -24,7 +24,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Enter correct file path
-        run: cd .\react-test\
+        run: cd /react-test/
       - name: Checkout
         uses: actions/checkout@v5
       - name: Set up Node
